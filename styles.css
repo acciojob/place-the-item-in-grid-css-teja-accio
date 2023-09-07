@@ -1,16 +1,16 @@
-/* Your CSS Code here. */
 .holder {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
-  grid-gap: 10px; /* Adjust the gap between items as needed */
-  width: 200px; /* Total size of the grid */
-  height: 200px; /* Total size of the grid */
+    display: grid;
+    grid-template-columns: 100px 100px; /* Create two equal columns */
+    grid-template-rows: 100px 100px; /* Create two equal rows*/
+    grid-gap: 5px; /* Add some gap between grid items */
+    width: 200px; /* Set the total width to 200px */
+    height: 200px; /* Set the total height to 200px */
 }
 
+/* Apply styles to the grid items (individual cells) */
 .item {
-  /* You can style the items as needed */
-  border: 1px solid #000;
-  padding: 10px;
-  text-align: center;
+    background-color: #3498db; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 10px; /* Example padding */
+   
 }
